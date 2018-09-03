@@ -10,9 +10,9 @@ class Dog < Model
   @@all = []
 
   def initialize(name, breed, age)
-    self.name = :name
-    self.breed = :breed
-    self.age = :age
+    self.name = name
+    self.breed = breed
+    self.age = age
     @@all << self
   end
 
